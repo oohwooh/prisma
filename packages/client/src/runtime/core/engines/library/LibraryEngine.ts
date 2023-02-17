@@ -453,11 +453,7 @@ You may have to run ${green('prisma generate')} for your changes to take effect.
     await this.start()
 
     const traceparent = getTraceParent({ tracingConfig: this.config.tracingConfig })
-    const response = await this.engine!.dmmf(JSON.stringify({ traceparent }))
-
-    return runInChildSpan({ name: 'parseDmmf', enabled: this.config.tracingConfig.enabled, internal: true }, () =>
-      JSON.parse(response),
-    )
+    return this.engine!.dmmf(JSON.stringify({ traceparent })) as Promise<DMMF.Document>
   }
 
   version(): string {
