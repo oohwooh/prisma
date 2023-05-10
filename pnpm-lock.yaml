@@ -614,7 +614,7 @@ importers:
       mariadb: 3.0.2
       mssql: 9.1.1
       pg: 8.9.0
-      sqlite-async: 1.1.3
+      sqlite-async: 1.2.0
       string-hash: 1.1.3
       strip-ansi: 6.0.1
       tempy: 1.0.1
@@ -642,7 +642,7 @@ importers:
       mariadb: 3.0.2
       mssql: 9.1.1
       pg: 8.9.0
-      sqlite-async: 1.1.3
+      sqlite-async: 1.2.0
       string-hash: 1.1.3
       strip-ansi: 6.0.1
       tempy: 1.0.1
@@ -3335,7 +3335,7 @@ packages:
       npmlog: 5.0.1
       rimraf: 3.0.2
       semver: 7.3.8
-      tar: 6.1.11
+      tar: 6.1.14
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -6076,7 +6076,7 @@ packages:
       promise-inflight: 1.0.1
       rimraf: 3.0.2
       ssri: 8.0.1
-      tar: 6.1.11
+      tar: 6.1.14
       unique-filename: 1.1.1
     transitivePeerDependencies:
       - bluebird
@@ -11744,7 +11744,7 @@ packages:
       npmlog: 6.0.2
       rimraf: 3.0.2
       semver: 7.3.8
-      tar: 6.1.11
+      tar: 6.1.14
       which: 2.0.2
     transitivePeerDependencies:
       - bluebird
@@ -12320,7 +12320,7 @@ packages:
       read-package-json-fast: 2.0.3
       rimraf: 3.0.2
       ssri: 8.0.1
-      tar: 6.1.11
+      tar: 6.1.14
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -13711,8 +13711,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /sqlite-async/1.1.3:
-    resolution: {integrity: sha512-C71fZoTO7u355bTONhq9ncj4Ged3pXM0Un7oCDnrsCu7BPzITrCqTANP99XD7b6uGz4fY+RdgSPF/zVS7Iy9Tg==}
+  /sqlite-async/1.2.0:
+    resolution: {integrity: sha512-gx9DUUA2UZzz/8Mh3qdA3RtTm8aJuF7dZgFdZ43WB29Iswdsp0KmPtem/2QDW8K4CrajR8yQ+gEniSFgolNscQ==}
     dependencies:
       sqlite3: 5.1.2
     transitivePeerDependencies:
@@ -13730,7 +13730,7 @@ packages:
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.10
       node-addon-api: 4.3.0
-      tar: 6.1.11
+      tar: 6.1.14
     optionalDependencies:
       node-gyp: 8.4.1
     transitivePeerDependencies:
@@ -14077,18 +14077,6 @@ packages:
       inherits: 2.0.4
       readable-stream: 3.6.0
     dev: false
-
-  /tar/6.1.11:
-    resolution: {integrity: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==}
-    engines: {node: '>= 10'}
-    dependencies:
-      chownr: 2.0.0
-      fs-minipass: 2.1.0
-      minipass: 3.3.4
-      minizlib: 2.1.2
-      mkdirp: 1.0.4
-      yallist: 4.0.0
-    dev: true
 
   /tar/6.1.14:
     resolution: {integrity: sha512-piERznXu0U7/pW7cdSn7hjqySIVTYT6F76icmFk7ptU7dDYlXTm5r9A6K04R2vU3olYgoKeo1Cg3eeu5nhftAw==}
