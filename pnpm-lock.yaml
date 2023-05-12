@@ -215,7 +215,7 @@ importers:
   packages/client:
     specifiers:
       '@codspeed/benchmark.js-plugin': 1.1.0
-      '@faker-js/faker': 7.6.0
+      '@faker-js/faker': 8.0.0
       '@fast-check/jest': 1.6.1
       '@jest/create-cache-key-function': 29.5.0
       '@jest/globals': 29.5.0
@@ -302,7 +302,7 @@ importers:
       '@prisma/engines-version': 4.15.0-2.8f088bba4367fa22d66dad3ff0c3a92ceded673e
     devDependencies:
       '@codspeed/benchmark.js-plugin': 1.1.0_benchmark@2.1.4
-      '@faker-js/faker': 7.6.0
+      '@faker-js/faker': 8.0.0
       '@fast-check/jest': 1.6.1_@jest+globals@29.5.0
       '@jest/create-cache-key-function': 29.5.0
       '@jest/globals': 29.5.0
@@ -2917,9 +2917,9 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@faker-js/faker/7.6.0:
-    resolution: {integrity: sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==}
-    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+  /@faker-js/faker/8.0.0:
+    resolution: {integrity: sha512-XDR8sApuf78GHx8mLXl3KL/q7eB52A963UGejVbdbj3OZtfGlNwp0J78b7apVzqRi0GF8l9g3eSkkaL2UmU9Aw==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
     dev: true
 
   /@fast-check/jest/1.6.1_@jest+globals@29.5.0:
